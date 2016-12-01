@@ -28,7 +28,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class sqliteModel {
-    
+    //UNTESTED
     public static Connection Connector(){
         try {
             Class.forName("org.sqlite.JDBC");
