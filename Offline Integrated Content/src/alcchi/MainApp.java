@@ -38,7 +38,7 @@ public class MainApp extends Application {
     private Stage mainStage;
     //main layout
     private BorderPane rootLayout;
-
+    
     //override default application start method
     @Override
     public void start(Stage mainStage){
@@ -59,12 +59,12 @@ public class MainApp extends Application {
             mainStage.setScene(scene);
             //show scene
             mainStage.show();
-        }
+        } 
         catch (IOException e) {
             e.printStackTrace();
         }
     }
-
+    
     public void showWelcomeScreen(){
         try {
             // load design
@@ -84,8 +84,6 @@ public class MainApp extends Application {
     //start app
     public static void main(String[] args) {
         launch(args);
-        System.out.println("Hello I'm Ian");
     }
-
+    
 }
-//Ian Jan Gabriel B. Briones
